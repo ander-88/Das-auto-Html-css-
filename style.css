@@ -1,0 +1,262 @@
+*{
+    font-family: 'Poppins' , sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo{
+    text-decoration: none;
+    color: #736d99;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+.navbar a{
+    color: #736d99;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+
+}
+
+.navbar a:hover{
+    color: rgb(116, 0, 0);
+}
+
+section{
+    padding: 100px 200px;
+
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(./img/carbg1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2{
+    color:white;
+    font-size: 1.4em;
+    font-weight: 500px;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+    font-size: 2em;
+    font-weight: 600px;  
+}
+
+.main h3{
+    color: white;
+    font-size: 1.5em;
+    font-weight: 700px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.main_btn{
+    color: white;
+    background-color: #736d99;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600px;
+    display: inline-block;
+    padding: 14px 20px;
+    letter-spacing: 2px;
+    border-radius: 15px;
+    transition: 0.7s ease;
+}
+
+.main_btn:hover{
+    background-color: #3e395e;
+    transform: scale(1.1);
+}
+
+.about_us h1 {
+    color: #736d99;
+    font-size: 2.2em;
+    font-weight: 800;
+    text-align: center;
+    padding: 30px;
+}
+
+.abt_card {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.parg_card{
+    background-color: #ffffff;
+    width: 1000px;
+    box-shadow: 0 5px 25px rgba(1, 1, 1 , 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.parg_card:hover{
+    transform: scale(1.2);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #736d99;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #ffffff;
+    width: 340px;
+    box-shadow: 0 5px 25px rgba(1, 1, 1 , 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.icon{
+    color: #d8d8d8;
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.info{
+    text-align: center;
+}
+
+.info h4{
+    color: #736d99;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.photos{
+    background-color: #555;
+    border-radius: 30px;
+    padding: 30px;
+    margin: 30px 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.catalogue {
+    color: #736d99;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.2em;
+    font-weight: 800;
+}
+
+.auto-img{
+    background-color: white;
+    height: 210px;
+    width: 400px;
+    padding:5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.auto-img img{
+    height: 90%;
+    width: 90%;
+    justify-content: center;
+    transition: 0.5s ease;
+}
+
+.auto-img img:hover{
+    transform: scale(1.1);
+}
+
+.more_img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.more_img a{
+    text-decoration: none;
+    color: #555;
+}
+
+.more_img a:hover{
+    color: #736d99;
+    font-weight: 600;
+}
+
+.vid {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #f0f0f0;
+    color: #736d99;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+} 
+
+footer h3{
+    color: #736d99;
+    font-size: 2.2em;
+    font-weight: 800;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer p{
+    font-size: 1em;
+    font-weight: 500;
+}
+
+
+
